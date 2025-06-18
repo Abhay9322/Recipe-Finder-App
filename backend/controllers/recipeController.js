@@ -27,6 +27,8 @@ export const getRecipes = async (req,res) => {
             mealType: mealType
         }));
 
+        await Recipe.insertMany(formatted);
+
         res.json(formatted);
     } catch (err) {
         res.status(500).json({ message: err.message })
