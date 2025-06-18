@@ -22,30 +22,6 @@ Backend:
 - MongoDB with Mongoose
 - Spoonacular API
 
-## Folder Structure
-
-Recipe-Finder-App/
-├── backend/
-│   ├── config/
-│   │   └── db.js
-│   ├── controllers/
-│   │   └── recipeController.js
-│   ├── models/
-│   │   └── recipeModel.js
-│   ├── routes/
-│   │   └── recipeRoutes.js
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── RecipeCard.jsx
-│   │   ├── pages/
-│   │   │   └── Home.jsx
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── index.html
-│   └── vite.config.js
-
 ## Setup Instructions
 
 1. Clone the Repository
